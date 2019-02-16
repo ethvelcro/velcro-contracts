@@ -5,6 +5,12 @@
   "repository": "git@github.com:ethvelcro/velcro-contracts.git",
   "author": "Brendan Asselstine <mail.asselstine@gmail.com>",
   "license": "MIT",
+  "files": [
+    "build",
+    "contracts",
+    "zos.json",
+    "zos.*.json"
+  ],
   "scripts": {
     "start": "./scripts/ganache.sh",
     "migrate": "truffle migrate --network local",
