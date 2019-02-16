@@ -1,6 +1,6 @@
 {
   "name": "velcro-contracts",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "git@github.com:ethvelcro/velcro-contracts.git",
   "author": "Brendan Asselstine <mail.asselstine@gmail.com>",
