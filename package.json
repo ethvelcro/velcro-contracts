@@ -23,7 +23,7 @@
     "console": "truffle console --network local",
     "version": "truffle version"
   },
-  "dependencies": {
+  "devDependencies": {
     "chalk": "^2.4.2",
     "ganache-cli": "^6.2.5",
     "openzeppelin-eth": "^2.1.3",
