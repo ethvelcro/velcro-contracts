@@ -1,0 +1,148 @@
+{
+  "contracts": {
+    "Velcro": {
+      "address": "0xa5af2ec3cd0da1afbf69ba27ccf1f43b1707020f",
+      "constructorCode": "608060405234801561001057600080fd5b5061075a806100206000396000f3fe",
+      "bodyBytecodeHash": "a2f71844b4c5aba3fd4624d46d3193ea07f8870ef78832a8568d32356fcdf329",
+      "localBytecodeHash": "b02a354f4aaeb4de87e0f353b38b968d28bf3a5162e0f7472f4c38c57998ddf1",
+      "deployedBytecodeHash": "b02a354f4aaeb4de87e0f353b38b968d28bf3a5162e0f7472f4c38c57998ddf1",
+      "types": {
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        },
+        "t_mapping<t_address>": {
+          "id": "t_mapping<t_address>",
+          "valueType": "t_address",
+          "label": "mapping(key => address)",
+          "kind": "mapping"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Velcro",
+          "path": "contracts/Velcro.sol",
+          "label": "owners",
+          "astId": 45,
+          "type": "t_mapping<t_address>",
+          "src": "45:34:1"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    },
+    "Migrations": {
+      "address": "0x2909341cf50ad34b5effca12c9f49e3b4526d1f4",
+      "constructorCode": "608060405234801561001057600080fd5b506107f3806100206000396000f3fe",
+      "bodyBytecodeHash": "8ce686c386ee2d839e68907c6b00213a250b2b71d5d385788b2504694017187e",
+      "localBytecodeHash": "21f928ef4a96eca9359c862565a8aa1ac7e81ce8c2d6c248ce3c76b54e033140",
+      "deployedBytecodeHash": "21f928ef4a96eca9359c862565a8aa1ac7e81ce8c2d6c248ce3c76b54e033140",
+      "types": {
+        "t_bool": {
+          "id": "t_bool",
+          "kind": "elementary",
+          "label": "bool"
+        },
+        "t_uint256": {
+          "id": "t_uint256",
+          "kind": "elementary",
+          "label": "uint256"
+        },
+        "t_array:50<t_uint256>": {
+          "id": "t_array:50<t_uint256>",
+          "valueType": "t_uint256",
+          "length": "50",
+          "kind": "array",
+          "label": "uint256[50]"
+        },
+        "t_address": {
+          "id": "t_address",
+          "kind": "elementary",
+          "label": "address"
+        }
+      },
+      "storage": [
+        {
+          "contract": "Initializable",
+          "path": "zos-lib/contracts/Initializable.sol",
+          "label": "initialized",
+          "astId": 280,
+          "type": "t_bool",
+          "src": "757:24:3"
+        },
+        {
+          "contract": "Initializable",
+          "path": "zos-lib/contracts/Initializable.sol",
+          "label": "initializing",
+          "astId": 282,
+          "type": "t_bool",
+          "src": "876:25:3"
+        },
+        {
+          "contract": "Initializable",
+          "path": "zos-lib/contracts/Initializable.sol",
+          "label": "______gap",
+          "astId": 331,
+          "type": "t_array:50<t_uint256>",
+          "src": "1891:29:3"
+        },
+        {
+          "contract": "Ownable",
+          "path": "openzeppelin-eth/contracts/ownership/Ownable.sol",
+          "label": "_owner",
+          "astId": 164,
+          "type": "t_address",
+          "src": "302:22:2"
+        },
+        {
+          "contract": "Ownable",
+          "path": "openzeppelin-eth/contracts/ownership/Ownable.sol",
+          "label": "______gap",
+          "astId": 275,
+          "type": "t_array:50<t_uint256>",
+          "src": "2186:29:2"
+        },
+        {
+          "contract": "Migrations",
+          "path": "contracts/Migrations.sol",
+          "label": "last_completed_migration",
+          "astId": 6,
+          "type": "t_uint256",
+          "src": "139:36:0"
+        }
+      ],
+      "warnings": {
+        "hasConstructor": false,
+        "hasSelfDestruct": false,
+        "hasDelegateCall": false,
+        "hasInitialValuesInDeclarations": false,
+        "uninitializedBaseContracts": []
+      }
+    }
+  },
+  "solidityLibs": {},
+  "proxies": {
+    "velcro-contracts/Migrations": [
+      {
+        "address": "0x2b0dab8a9aab04269f6ffa5f88b0738196885362",
+        "version": "0.1.0",
+        "implementation": "0x2909341cf50ad34b5effca12c9f49e3b4526d1f4"
+      }
+    ],
+    "velcro-contracts/Velcro": [
+      {
+        "address": "0xef7ef0ddbf124481cc714ab2d74b5565c7a743a3",
+        "version": "0.1.0",
+        "implementation": "0xa5af2ec3cd0da1afbf69ba27ccf1f43b1707020f"
+      }
+    ]
+  },
+  "zosversion": "2",
+  "version": "0.1.0"
+}
