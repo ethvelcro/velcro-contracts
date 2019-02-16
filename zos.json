@@ -3,6 +3,7 @@
   "name": "velcro-contracts",
   "version": "0.1.0",
   "contracts": {
-    "Velcro": "Velcro"
+    "Velcro": "Velcro",
+    "Migrations": "Migrations"
   }
 }
