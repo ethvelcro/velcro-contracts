@@ -130,14 +130,14 @@
   "proxies": {
     "velcro-contracts/Migrations": [
       {
-        "address": "0x2b0dab8a9aab04269f6ffa5f88b0738196885362",
+        "address": "0xfbd0f9c9b9575c9a14e39445abc4eaad9d69ccab",
         "version": "0.1.0",
         "implementation": "0x2909341cf50ad34b5effca12c9f49e3b4526d1f4"
       }
     ],
     "velcro-contracts/Velcro": [
       {
-        "address": "0xef7ef0ddbf124481cc714ab2d74b5565c7a743a3",
+        "address": "0xeb458b030d6be178e301910f7077955574bb7be4",
         "version": "0.1.0",
         "implementation": "0xa5af2ec3cd0da1afbf69ba27ccf1f43b1707020f"
       }
